@@ -2,7 +2,7 @@ services:
   ollama:
     image: 'ollama/ollama:latest'
     ports:
-      - '11434'
+      - '44444:11434'
   pgvector:
     image: 'pgvector/pgvector:pg17'
     environment:
